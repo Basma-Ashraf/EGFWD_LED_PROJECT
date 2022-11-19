@@ -1,0 +1,51 @@
+Dependencies for Project 'Led_Control_EgFwd', Target 'Target': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\Drivers\MCAL\DIO\MCAL_DIO.c)(0x6378F850)(--c99 -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\COTS\APP -I .\COTS\Common -I .\COTS\Config -I .\COTS\MCAL\DIO -I .\COTS\MCAL\INC -I .\COTS\MCAL\NVIC -I .\COTS\MCAL\RCC -I .\COTS\MCAL\SYSTICK -I .\COTS\MCAL\WDT-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\mcal_dio.o --omf_browse .\objects\mcal_dio.crf --depend .\objects\mcal_dio.d)
+I (.\COTS\Common\Std_Types.h)(0x6378D431)
+I (Drivers\MCAL\DIO\MCAL_DIO.h)(0x6378F94F)
+I (.\COTS\Common\Mcu_Hw.h)(0x6378F946)
+F (.\Drivers\MCAL\DIO\MCAL_PORT.c)(0x6378D5B6)(--c99 -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\COTS\APP -I .\COTS\Common -I .\COTS\Config -I .\COTS\MCAL\DIO -I .\COTS\MCAL\INC -I .\COTS\MCAL\NVIC -I .\COTS\MCAL\RCC -I .\COTS\MCAL\SYSTICK -I .\COTS\MCAL\WDT-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\mcal_port.o --omf_browse .\objects\mcal_port.crf --depend .\objects\mcal_port.d)
+I (Drivers\MCAL\DIO\MCAL_PORT.h)(0x6378DABF)
+I (.\COTS\Common\Mcu_Hw.h)(0x6378F946)
+I (.\COTS\Common\Std_Types.h)(0x6378D431)
+I (Drivers\MCAL\DIO\Port_Types.h)(0x6378DAE6)
+I (.\COTS\Config\MCAL_Port_Config.h)(0x6378DABF)
+I (.\COTS\MCAL\DIO\MCAL_PORT.h)(0x6378DABF)
+F (.\Drivers\MCAL\NVIC\NVIC.c)(0x6377C157)(--c99 -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\COTS\APP -I .\COTS\Common -I .\COTS\Config -I .\COTS\MCAL\DIO -I .\COTS\MCAL\INC -I .\COTS\MCAL\NVIC -I .\COTS\MCAL\RCC -I .\COTS\MCAL\SYSTICK -I .\COTS\MCAL\WDT-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
+I (.\COTS\Common\STD_Types.h)(0x6378D431)
+I (.\COTS\MCAL\INC\IntCtrl.h)(0x630521A0)
+F (.\Drivers\MCAL\RCC\RCC.c)(0x6378EBB1)(--c99 -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\COTS\APP -I .\COTS\Common -I .\COTS\Config -I .\COTS\MCAL\DIO -I .\COTS\MCAL\INC -I .\COTS\MCAL\NVIC -I .\COTS\MCAL\RCC -I .\COTS\MCAL\SYSTICK -I .\COTS\MCAL\WDT-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
+I (.\COTS\Common\STD_Types.h)(0x6378D431)
+I (Drivers\MCAL\RCC\RCC.h)(0x6378CA68)
+F (.\Drivers\MCAL\SYSTICK\systick.c)(0x637853D6)(--c99 -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\COTS\APP -I .\COTS\Common -I .\COTS\Config -I .\COTS\MCAL\DIO -I .\COTS\MCAL\INC -I .\COTS\MCAL\NVIC -I .\COTS\MCAL\RCC -I .\COTS\MCAL\SYSTICK -I .\COTS\MCAL\WDT-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (.\COTS\Common\STD_Types.h)(0x6378D431)
+I (Drivers\MCAL\SYSTICK\systick.h)(0x63785269)
+F (.\Drivers\APP\main.c)(0x6378F94A)(--c99 -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\COTS\APP -I .\COTS\Common -I .\COTS\Config -I .\COTS\MCAL\DIO -I .\COTS\MCAL\INC -I .\COTS\MCAL\NVIC -I .\COTS\MCAL\RCC -I .\COTS\MCAL\SYSTICK -I .\COTS\MCAL\WDT-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\COTS\Common\STD_Types.h)(0x6378D431)
+I (.\COTS\Common\Mcu_HW.h)(0x6378F946)
+I (.\COTS\MCAL\RCC\RCC.h)(0x6378CA68)
+I (.\COTS\MCAL\DIO\MCAL_PORT.h)(0x6378DABF)
+I (.\COTS\MCAL\DIO\Port_Types.h)(0x6378DAE6)
+I (.\COTS\Config\MCAL_Port_Config.h)(0x6378DABF)
+I (.\COTS\MCAL\DIO\MCAL_DIO.h)(0x6378F94F)
+I (.\COTS\MCAL\SYSTICK\systick.h)(0x63785269)
+F (.\Drivers\Config\IntCtrl_cfg.c)(0x6305A796)(--c99 -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\COTS\APP -I .\COTS\Common -I .\COTS\Config -I .\COTS\MCAL\DIO -I .\COTS\MCAL\INC -I .\COTS\MCAL\NVIC -I .\COTS\MCAL\RCC -I .\COTS\MCAL\SYSTICK -I .\COTS\MCAL\WDT-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\intctrl_cfg.o --omf_browse .\objects\intctrl_cfg.crf --depend .\objects\intctrl_cfg.d)
+I (.\COTS\Common\STD_Types.h)(0x6378D431)
+F (.\Drivers\Config\MCAL_Port_Config.c)(0x6378EA43)(--c99 -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\COTS\APP -I .\COTS\Common -I .\COTS\Config -I .\COTS\MCAL\DIO -I .\COTS\MCAL\INC -I .\COTS\MCAL\NVIC -I .\COTS\MCAL\RCC -I .\COTS\MCAL\SYSTICK -I .\COTS\MCAL\WDT-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\mcal_port_config.o --omf_browse .\objects\mcal_port_config.crf --depend .\objects\mcal_port_config.d)
+I (Drivers\Config\MCAL_Port_Config.h)(0x6378DABF)
+I (.\COTS\Common\Std_Types.h)(0x6378D431)
+I (.\COTS\MCAL\DIO\MCAL_PORT.h)(0x6378DABF)
+I (.\COTS\Common\Mcu_Hw.h)(0x6378F946)
+I (.\COTS\MCAL\DIO\Port_Types.h)(0x6378DAE6)
+I (.\COTS\Config\MCAL_Port_Config.h)(0x6378DABF)
+F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x6378348B)(--cpu Cortex-M4.fp.sp --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\listings\startup_tm4c123.lst --xref -o .\objects\startup_tm4c123.o --depend .\objects\startup_tm4c123.d)
+F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x550A65DA)(--c99 -c --cpu Cortex-M4.fp.sp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\COTS\APP -I .\COTS\Common -I .\COTS\Config -I .\COTS\MCAL\DIO -I .\COTS\MCAL\INC -I .\COTS\MCAL\NVIC -I .\COTS\MCAL\RCC -I .\COTS\MCAL\SYSTICK -I .\COTS\MCAL\WDT-IC:\Keil_v5\ARM\RV31\Inc-I.\RTE\_Target-IC:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\system_tm4c123.o --omf_browse .\objects\system_tm4c123.crf --depend .\objects\system_tm4c123.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (C:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
+I (C:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
+I (C:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)
+I (C:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F9F3E)
+I (C:\Users\Asser\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F9F3E)
+I (C:\Users\Asser\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
